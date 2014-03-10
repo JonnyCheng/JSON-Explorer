@@ -18,7 +18,7 @@
 	    ]
 	};
 
-	var div = document.querySelector(".list");   //查到DOM元素方法参考网上相关资料
+	var div = document.querySelector(".list");   
 	var show = document.querySelector(".show"),
 		n = null,
 		divList = div.getElementsByTagName('div');
@@ -60,7 +60,7 @@
 		showE.style.display="none";
 	}
 	btnE1.onclick =function(){
-        var val = JSON.parse(textE.value);      //字符串转JSON数据方法，参考了JavaScript高级编程第三版和知乎。
+        var val = JSON.parse(textE.value);     
   		data.products.push(JSON.parse(textE.value));
   		console.log(data.products);
   		textE.style.display="none";
