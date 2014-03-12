@@ -18,10 +18,10 @@
 	    ]
 	};
 
-	var div = document.querySelector(".list");   
-	var show = document.querySelector(".show"),
-		n = null,
-		divList = div.getElementsByTagName('div');
+	var div = document.querySelector(".list"),  
+	    show = document.querySelector(".show"),
+            n = null,
+	    divList = div.getElementsByTagName('div');
 	function crEl(){
 		for (var i = 0; i < data.products.length; i++) {
 			var tmp = document.createElement("div");
